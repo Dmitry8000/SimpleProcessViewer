@@ -46,6 +46,8 @@ namespace SimpleProcessViewer.Models
         public ProcessDetails GetProcessDetail(int processId)
         {
             //string query = $"SELECT ProcessId, ExecutablePath,  FROM Win32_Process WHERE ProcessId={processId}";
+            //SELECT PercentProcessorTime FROM Win32_PerfFormattedData_PerfOS_Processor WHERE Name = '_Total'
+
             string query = $"SELECT * FROM Win32_Process WHERE ProcessId={processId}";
             ProcessDetails processDetails = new ProcessDetails();
             using (var search = new ManagementObjectSearcher(query))
@@ -98,6 +100,7 @@ namespace SimpleProcessViewer.Models
                 foreach (ProcessDescription process in processList)
                 {
                     var desc = GetProcessDetail(process.Id);
+               
                     FullProcessInfo fullInfo = new FullProcessInfo
                     {
                         Id = process.Id,

@@ -21,7 +21,7 @@ namespace WpfTester
 
         readonly IProcessProvider _processProvider;
 
-        public ViewModel(ProcessProvider processProvider)
+        public ViewModel(IProcessProvider processProvider)
         {
             _processProvider = processProvider;
             
