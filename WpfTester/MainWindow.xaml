@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTester"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Username: "></Label>
+            <Label Grid.Row="1" Content="ExecutablePath: "></Label>
+            <Label Content="{Binding UserName}" Grid.Column="1"></Label>
+            <Label Grid.Row="1" Content="{Binding ExecutablePath}" Grid.Column="1"></Label>
+        </Grid>
+        
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Height="20" Width="200" Margin="5" Content="Refresh" Command="{Binding RefreshCommand}"></Button>
+        </StackPanel>
+        <DataGrid ItemsSource="{Binding Path=Processes}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}"></DataGrid>
+        <!--<ListView ItemsSource="{Binding Path=Processes}"></ListView>-->
+    </Grid>
+</Window>
