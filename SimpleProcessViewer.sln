@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleProcessViewer", "Simp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTester", "WpfTester\WpfTester.csproj", "{28F4AB14-558E-4B94-AB07-5F649639801A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessorViewerService", "ProcessorViewerService\ProcessorViewerService.csproj", "{865EB7B1-D51C-440A-99BB-20206B824149}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessViewerService", "ProcessViewerService\ProcessViewerService.csproj", "{7069B3E1-9AA3-4E70-9365-D1192C774BD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{28F4AB14-558E-4B94-AB07-5F649639801A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28F4AB14-558E-4B94-AB07-5F649639801A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28F4AB14-558E-4B94-AB07-5F649639801A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{865EB7B1-D51C-440A-99BB-20206B824149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{865EB7B1-D51C-440A-99BB-20206B824149}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{865EB7B1-D51C-440A-99BB-20206B824149}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{865EB7B1-D51C-440A-99BB-20206B824149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7069B3E1-9AA3-4E70-9365-D1192C774BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7069B3E1-9AA3-4E70-9365-D1192C774BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7069B3E1-9AA3-4E70-9365-D1192C774BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7069B3E1-9AA3-4E70-9365-D1192C774BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
