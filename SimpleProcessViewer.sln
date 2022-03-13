@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleProcessViewer", "SimpleProcessViewer\SimpleProcessViewer.csproj", "{29592B3B-73FC-45CE-9202-609D2D900EDC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTester", "WpfTester\WpfTester.csproj", "{28F4AB14-558E-4B94-AB07-5F649639801A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessViewerService", "ProcessViewerService\ProcessViewerService.csproj", "{7069B3E1-9AA3-4E70-9365-D1192C774BD1}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{29592B3B-73FC-45CE-9202-609D2D900EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29592B3B-73FC-45CE-9202-609D2D900EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29592B3B-73FC-45CE-9202-609D2D900EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29592B3B-73FC-45CE-9202-609D2D900EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28F4AB14-558E-4B94-AB07-5F649639801A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28F4AB14-558E-4B94-AB07-5F649639801A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28F4AB14-558E-4B94-AB07-5F649639801A}.Release|Any CPU.ActiveCfg = Release|Any CPU
